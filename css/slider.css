@@ -1,0 +1,50 @@
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    min-width: 0;
+}
+.dots .slick-dots {
+    position: absolute;
+    bottom: 30px;
+    right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots .slick-dots li {
+    list-style: none;
+}
+.dots .slick-dots button {
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: content-box;
+    font-size: 0;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.dots .slick-dots .slick-active button {
+    background-color: #fff;
+}
+
+.dots_box {
+    position: relative;
+    width: 100%;
+}
+
+.dots {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
