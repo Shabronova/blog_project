@@ -1,9 +1,7 @@
   // mobile menu 
 
     let mobileMenu = document.querySelector(".nav-mobile-menu");
-    console.log(mobileMenu);
     let mainMenu = document.querySelector(".navigation");
-    console.log(mainMenu);
 
 
     mobileMenu.addEventListener ("click", function (){
@@ -13,7 +11,6 @@
         } else {
             mainMenu.classList.remove("active-menu");
         }
-    
     });
 
 // slider 
